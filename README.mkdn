@@ -20,7 +20,7 @@ Then to sync up:
 
 Build your device:
 
-    ./build-carbon.sh cooperve
+    ./build-carbon.sh (Device Codename)
 
 Flash ZIP:
 
