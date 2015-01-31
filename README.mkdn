@@ -5,7 +5,7 @@ CarbonXtremeROM 11.0
 Getting Started
 ---------------
 
-To get started with Android for ARMv6/CyanogenMod, you'll need to get
+To get started with Android for ARMv6/CyanogenMod/CXR, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/developing.html).
 
 
