@@ -513,7 +513,7 @@
   <project path="kernel/samsung/bcm21553-common" name="androidarmv6/android_kernel_samsung_bcm21553-common" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" revision="KitKat" />
-  <project path="packages/apps/SystemUI" name="teamcarbonxtreme/android_packages_apps_SystemUI" remote="github" revision="KitKat" />
+  <project path="frameworks/base/packages/SystemUI" name="teamcarbonxtreme/android_packages_apps_SystemUI" remote="github" revision="KitKat" />
   <project path="packages/apps/Contacts" name="teamcarbonxtreme/android_packages_apps_Contacts" remote="github" revision="KitKat" />
   <project path="packages/apps/Dialer" name="teamcarbonxtreme/android_packages_apps_Dialer" remote="github" revision="KitKat" />
   <project path="packages/apps/CXR-Wallpapers" name="teamcarbonxtreme/android_packages_apps_CXR-Wallpapers" remote="github" revision="cxr-kk" />
