@@ -497,7 +497,7 @@
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <!-- teamcarbonxtreme repositories -->
   <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
-  <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="kk-carbonx" />
+  <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="cxr-kk" />
   <project path="vendor/cm" name="teamcarbonxtreme/android_vendor_cm" remote="github" revision="cxr-kk" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
