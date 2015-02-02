@@ -504,17 +504,21 @@
     <copyfile src="build-carbon.sh" dest="build-carbon.sh" />
   </project>
   <project path="device/lge/p350" name="teamcarbonxtreme/android_device_lge_p350" remote="github" revision="cm-10.2" />
-  <project path="vendor/lge" name="teamcarbonxtreme/cm_vendor_lge" remote="github" revision="cm-10.1" />
-  <project path="kernel/lge/p350" name="teamcarbonxtreme/lge-kernel-pecan" remote="github" revision="jb_chocolate" />
+  <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
+  <project path="device/samsung/msm7x27" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
+  <project path="device/qcom/msm7x27" name="teamcarbonxtreme/android_device_qcom_msm7x27" remote="github" revision="cxr-kk" />
   <project path="device/samsung/cooperve" name="teamcarbonxtreme/android_device_samsung_cooperve" remote="github" revision="kk-carbonx" />
   <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
   <project path="vendor/samsung" name="teamcarbonxtreme/android_vendor_samsung" remote="github" revision="kk-carbonx" />
+  <project path="vendor/lge" name="teamcarbonxtreme/cm_vendor_lge" remote="github" revision="cm-10.1" />
+  <project path="vendor/qcom/msm7x27" name="teamcarbonxtreme/android_vendor_qcom_msm7x27" remote="github" revision="cxr-kk" />
+  <project path="kernel/lge/p350" name="teamcarbonxtreme/lge-kernel-pecan" remote="github" revision="jb_chocolate" />
   <project path="kernel/samsung/bcm21553-common" name="androidarmv6/android_kernel_samsung_bcm21553-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/msm7x27" name="teamcarbonxtreme/android_kernel_samsung_msm7x27" remote="github" revision="cxr-kk" />
   <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" revision="KitKat" />
   <project path="frameworks/base" name="teamcarbonxtreme/android_frameworks_base" remote="github" revision="cxr-kk" />
   <project path="packages/apps/Contacts" name="teamcarbonxtreme/android_packages_apps_Contacts" remote="github" revision="KitKat" />
   <project path="packages/apps/Dialer" name="teamcarbonxtreme/android_packages_apps_Dialer" remote="github" revision="KitKat" />
-  <project path="packages/apps/CXR-Wallpapers" name="teamcarbonxtreme/android_packages_apps_CXR-Wallpapers" remote="github" revision="cxr-kk" />
   <project path="packages/apps/PerformanceControl" name="teamcarbonxtreme/android_packages_apps_PerformanceControl" remote="github" revision="cxr-kk" />
 </manifest>
