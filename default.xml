@@ -507,7 +507,7 @@
   <project path="vendor/lge" name="teamcarbonxtreme/cm_vendor_lge" remote="github" revision="cm-10.1" />
   <project path="kernel/lge/p350" name="teamcarbonxtreme/lge-kernel-pecan" remote="github" revision="jb_chocolate" />
   <project path="device/samsung/cooperve" name="teamcarbonxtreme/android_device_samsung_cooperve" remote="github" revision="kk-carbonx" />
-  <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="kk-carbonx" />
+  <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
   <project path="vendor/samsung" name="teamcarbonxtreme/android_vendor_samsung" remote="github" revision="kk-carbonx" />
   <project path="kernel/samsung/bcm21553-common" name="androidarmv6/android_kernel_samsung_bcm21553-common" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0" />
