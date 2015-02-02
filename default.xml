@@ -505,7 +505,7 @@
   </project>
   <project path="device/lge/p350" name="teamcarbonxtreme/android_device_lge_p350" remote="github" revision="cm-10.2" />
   <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
-  <project path="device/samsung/msm7x27" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
+  <project path="device/samsung/msm7x27-common" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
   <project path="device/qcom/msm7x27" name="teamcarbonxtreme/android_device_qcom_msm7x27" remote="github" revision="cxr-kk" />
   <project path="device/samsung/cooperve" name="teamcarbonxtreme/android_device_samsung_cooperve" remote="github" revision="kk-carbonx" />
   <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
