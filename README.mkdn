@@ -1,31 +1,46 @@
-CarbonXtremeROM 12.0
-Getting Started
+CarbonXtremeROM 11.0
+===========
 
-To get started with Android for ARMv6/CyanogenMod/CXR, you'll need to get familiar with Git and Repo.
+
+Getting Started
+---------------
+
+To get started with Android for ARMv6/CyanogenMod/CXR, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/developing.html).
+
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-lp
+
+    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-kk
 
 Then to sync up:
 
-repo sync
+    repo sync
 
 Build your device:
-Normal Method
 
- source build/envsetup.sh
- brunch (Device Codename)
+Normal Method
+--------
+    source build/envsetup.sh
+    brunch (Device Codename)
 
 Carbonx Method
+--------
 
-./build-carbon.sh (Device Codename)
+    ./build-carbon.sh (Device Codename)
 
 Flash ZIP:
 
-out/target/product/DEVICENAME/cm-VERSION-DEVICENAME.zip
+    out/target/product/DEVICENAME/cm-VERSION-DEVICENAME.zip
 
-Please see the CyanogenMod Wiki for building instructions.
+
+Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+
 Disclaimer
+--------
 
-All of these device are not supported by CyanogenMod since they use the old Qualcomm Snapdragon MSM7x27 chip, and hence cut off by the CyanogenMod team. This team (CarbonXtremeROM) is in no way, shape or form affiliated by the CyanogenMod team and this project is not endorsed or supported by the CyanogenMod team.
+All of these device are not supported by CyanogenMod since they use the old Qualcomm
+Snapdragon MSM7x27 chip, and hence cut off by the CyanogenMod team. This team (CarbonXtremeROM)
+is in no way, shape or form affiliated by the CyanogenMod team and this project is not
+endorsed or supported by the CyanogenMod team.
