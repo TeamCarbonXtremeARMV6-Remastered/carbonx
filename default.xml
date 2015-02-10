@@ -548,5 +548,5 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
  <!-- teamcarbonxtreme repositories -->
-  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-lp">
+  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-lp"/>
 </manifest>
