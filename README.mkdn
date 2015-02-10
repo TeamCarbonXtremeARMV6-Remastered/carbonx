@@ -1,4 +1,4 @@
-CarbonXtremeROM 11.0
+CarbonXtremeROM 12.0
 ===========
 
 
@@ -22,8 +22,8 @@ Build your device:
 
 Normal Method
 --------
-    source build/envsetup.sh
-    brunch (Device Codename)
+     source build/envsetup.sh
+     brunch (Device Codename)
 
 Carbonx Method
 --------
