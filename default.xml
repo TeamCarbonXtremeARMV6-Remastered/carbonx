@@ -517,7 +517,7 @@
   <project path="kernel/samsung/msm7x27" name="teamcarbonxtreme/android_kernel_samsung_msm7x27" remote="github" revision="cxr-kk" />
   <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" revision="cxr-kk" />
-  <project path="frameworks/base" name="teamcarbonxtreme/android_frameworks_base" remote="github" revision="cxr-kk" />
+  <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="packages/apps/Contacts" name="teamcarbonxtreme/android_packages_apps_Contacts" remote="github" revision="KitKat" />
   <project path="packages/apps/Dialer" name="teamcarbonxtreme/android_packages_apps_Dialer" remote="github" revision="KitKat" />
   <project path="packages/apps/PerformanceControl" name="teamcarbonxtreme/android_packages_apps_PerformanceControl" remote="github" revision="cxr-kk" />
