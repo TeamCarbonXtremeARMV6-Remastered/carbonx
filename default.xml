@@ -518,8 +518,8 @@
   <project path="packages/apps/Settings" name="nothing-dev/android_packages_apps_Settings" remote="github" />
   <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="prebuilts/sdk" name="teamcarbonxtreme/android_prebuilts_sdk" remote="github" revision="cxr-kk" />
-  <project path="packages/apps/Contacts" name="androidarmv6/android_packages_apps_Contacts" remote="github" revision="KitKat" />
-  <project path="packages/apps/Dialer" name="androidarmv6/android_packages_apps_Dialer" remote="github" revision="KitKat" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="KitKat" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="KitKat" />
   <project path="packages/apps/PerformanceControl" name="teamcarbonxtreme/android_packages_apps_PerformanceControl" remote="github" revision="cxr-kk" />
   <project path="packages/apps/CarbonXControl" name="teamcarbonxtreme/android_packages_apps_CarbonXControl" remote="github" revision="cxr-kk" />
   <project path="packages/apps/CXR-OTA" name="teamcarbonxtreme/android_packages_apps_CXR-OTA" remote="github" revision="cxr-kk" />
