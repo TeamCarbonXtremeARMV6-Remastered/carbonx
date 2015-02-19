@@ -392,7 +392,6 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -508,6 +507,7 @@
   <project path="vendor/carbon" name="teamcarbonxtreme/android_vendor_carbonx" remote="github" revision="cxr-kk" >
     <copyfile src="build-carbon.sh" dest="build-carbon.sh" />
   </project>
+  <project path="packages/apps/Settings" name="Nothing-Dev/android_packages_apps_Settings" remote="github" revision="cxr-kk" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-11.0"/>
