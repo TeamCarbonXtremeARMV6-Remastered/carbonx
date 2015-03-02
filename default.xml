@@ -502,7 +502,7 @@
   <project path="vendor/carbon" name="teamcarbonxtreme/android_vendor_carbonx" remote="github" revision="cxr-kk" >
     <copyfile src="build-carbon.sh" dest="build-carbon.sh" />
   </project>
-  <project path="device/lge/p350" name="teamcarbonxtreme/android_device_lge_p350" remote="github" revision="cm-10.2" />
+  <project path="device/lge/p350" name="teamcarbonxtreme/android_device_lge_p350" remote="github" revision="cxr-kk" />
   <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
   <project path="device/samsung/msm7x27-common" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
   <project path="device/qcom/msm7x27" name="teamcarbonxtreme/android_device_qcom_msm7x27" remote="github" revision="cxr-kk" />
