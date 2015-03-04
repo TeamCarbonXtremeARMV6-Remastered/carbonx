@@ -524,7 +524,7 @@
   <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-11.0"/>
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0"/>
-  <project path="packages/apps/Settings" name="nothing-dev/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
   <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="prebuilts/sdk" name="teamcarbonxtreme/android_prebuilts_sdk" remote="github" revision="cxr-kk" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
