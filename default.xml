@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Nothing-Dev/android_build" groups="pdk">
+  <project path="build" name="Nothing-Dev/android_build" groups="pdk" revision="cm-11.0>
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
