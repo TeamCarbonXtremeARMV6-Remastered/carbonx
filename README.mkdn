@@ -12,7 +12,7 @@ familiar with [Git and Repo](http://source.android.com/source/developing.html).
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
 
-    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-kk-(ARMv7)
+    repo init -u git://github.com/TeamCarbonXtreme/carbonx.git -b cxr-kk-armv7
 
 Then to sync up:
 
@@ -20,7 +20,7 @@ Then to sync up:
 
 Build your device:
 
-    ./build-carbon.sh (Device Codename)
+    ./build-cxr.sh (Device Codename)
 
 Flash ZIP:
 
