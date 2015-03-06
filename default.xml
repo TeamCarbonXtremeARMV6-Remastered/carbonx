@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="Nothing-Dev/android_build" groups="pdk" revision="cxr-kk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -501,13 +501,13 @@
   <!-- teamcarbonxtreme repositories -->
   <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
   <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="cxr-kk" />
-  <project path="vendor/cm" name="teamcarbonxtreme/android_vendor_cm" remote="github" revision="cxr-kk" >
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="cxr-kk" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/carbon" name="teamcarbonxtreme/android_vendor_carbonx" remote="github" revision="cxr-kk" >
-    <copyfile src="build-carbon.sh" dest="build-carbon.sh" />
+  <project path="vendor/cxr" name="teamcarbonxtreme/android_vendor_cxr" remote="github" revision="cxr-kk" >
+    <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
-  <project path="packages/apps/Settings" name="Nothing-Dev/android_packages_apps_Settings" remote="github" revision="cxr-kk" />
+  <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" revision="cxr-kk" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-11.0"/>
