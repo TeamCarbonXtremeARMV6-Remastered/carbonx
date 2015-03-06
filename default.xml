@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="androidarmv6/android_build" groups="pdk">
+  <project path="build" name="TeamCarbonXtreme/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -494,13 +494,13 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <!-- teamcarbonxtreme repositories -->
-  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
+  <project path="android" name="teamcarbonxtreme/android" remote="github" revision="cxr-kk" />
   <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="cxr-kk" />
   <project path="vendor/cm" name="teamcarbonxtreme/android_vendor_cm" remote="github" revision="cxr-kk" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/carbon" name="teamcarbonxtreme/android_vendor_carbonx" remote="github" revision="cxr-kk" >
-    <copyfile src="build-carbon.sh" dest="build-carbon.sh" />
+  <project path="vendor/cxr" name="teamcarbonxtreme/android_vendor_cxr" remote="github" revision="cxr-kk" >
+    <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
   <project path="device/lge/p350" name="teamcarbonxtreme/android_device_lge_p350" remote="github" revision="cxr-kk" />
   <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
@@ -524,12 +524,12 @@
   <project name="CyanogenMod/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0"/>
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-11.0"/>
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0"/>
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" />
   <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
   <project path="prebuilts/sdk" name="teamcarbonxtreme/android_prebuilts_sdk" remote="github" revision="cxr-kk" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" />
-  <project path="packages/apps/PerformanceControl" name="teamcarbonxtreme/android_packages_apps_PerformanceControl" remote="github" revision="cxr-kk" />
+<!--  <project path="packages/apps/PerformanceControl" name="teamcarbonxtreme/android_packages_apps_PerformanceControl" remote="github" revision="cxr-kk" />
   <project path="packages/apps/CarbonXControl" name="teamcarbonxtreme/android_packages_apps_CarbonXControl" remote="github" revision="cxr-kk" />
-  <project path="packages/apps/CXR-OTA" name="teamcarbonxtreme/android_packages_apps_CXR-OTA" remote="github" revision="cxr-kk" />
+  <project path="packages/apps/CXR-OTA" name="teamcarbonxtreme/android_packages_apps_CXR-OTA" remote="github" revision="cxr-kk" /> -->
 </manifest>
