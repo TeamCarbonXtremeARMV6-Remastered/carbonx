@@ -501,7 +501,6 @@
   <project path="vendor/cxr" name="teamcarbonxtreme/android_vendor_cxr" remote="github" revision="cxr-kk" >
     <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
-  <project path
   <project path="prebuilt" name="TeamCarbonXtreme/android_prebuilt" remote="github" revision="cxr-kk" />
   <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
   <project path="device/samsung/msm7x27-common" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
