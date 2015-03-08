@@ -29,7 +29,6 @@
   <project path="art" name="androidarmv6/android_art" />
   <project path="bionic" name="androidarmv6/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="androidarmv6/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-4.4" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
@@ -493,6 +492,7 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
   <!-- teamcarbonxtreme repositories -->
+  <project path="bootable/recovery" name="TeamCarbonXtreme/android_bootable_recovery" remote="github" revision="cxr-kk" />
   <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
   <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="cxr-kk" />
   <project path="vendor/cm" name="teamcarbonxtreme/android_vendor_cm" remote="github" revision="cxr-kk" >
@@ -501,6 +501,7 @@
   <project path="vendor/cxr" name="teamcarbonxtreme/android_vendor_cxr" remote="github" revision="cxr-kk" >
     <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
+  <project path
   <project path="prebuilt" name="TeamCarbonXtreme/android_prebuilt" remote="github" revision="cxr-kk" />
   <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
   <project path="device/samsung/msm7x27-common" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
@@ -509,7 +510,7 @@
   <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
   <project path="vendor/samsung" name="teamcarbonxtreme/android_vendor_samsung" remote="github" revision="cxr-kk" />
   <project path="vendor/qcom/msm7x27" name="teamcarbonxtreme/android_vendor_qcom_msm7x27" remote="github" revision="cxr-kk" />
-  <project path="kernel/samsung/bcm21553-common" name="androidarmv6/android_kernel_samsung_bcm21553-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/bcm21553-common" name="TeamCarbonXtreme/android_kernel_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
   <project path="kernel/samsung/msm7x27" name="teamcarbonxtreme/android_kernel_samsung_msm7x27" remote="github" revision="cxr-kk" />
   <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" revision="cxr-kk" />
