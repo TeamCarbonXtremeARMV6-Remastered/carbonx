@@ -496,7 +496,7 @@
 </manifest>
 
   <!-- teamcarbonxtreme repositories -->
-  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
+  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk-armv7 />
   <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="cxr-kk" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="cxr-kk" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
