@@ -5,6 +5,11 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
+  <remote name="cxr"
+           fetch="https://github.com/TeamCarbonXtreme"
+           review=".."
+           revision="refs/heads/cxr-kk" />
+
   <remote  name="github"
            fetch=".."
            review="review.androidarmv6.org" />
@@ -372,6 +377,8 @@
   <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
@@ -494,27 +501,24 @@
   <!-- teamcarbonxtreme repositories -->
   <project path="bootable/recovery" name="TeamCarbonXtreme/android_bootable_recovery" remote="github" revision="cxr-kk" />
   <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
-  <project path="system/bluetooth" name="teamcarbonxtreme/android_system_bluetooth" remote="github" revision="cxr-kk" />
-  <project path="vendor/cm" name="teamcarbonxtreme/android_vendor_cm" remote="github" revision="cxr-kk" >
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cxr" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cxr" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/cxr" name="teamcarbonxtreme/android_vendor_cxr" remote="github" revision="cxr-kk" >
+  <project path="vendor/cxr" name="android_vendor_cxr" remote="cxr" >
     <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
-  <project path="prebuilt" name="TeamCarbonXtreme/android_prebuilt" remote="github" revision="cxr-kk" />
-  <project path="device/samsung/cooper" name="teamcarbonxtreme/android_device_samsung_cooper" remote="github" revision="cxr-kk" />
-  <project path="device/samsung/msm7x27-common" name="teamcarbonxtreme/android_device_samsung_msm7x27-common" remote="github" revision="cxr-kk" />
-  <project path="device/qcom/msm7x27" name="teamcarbonxtreme/android_device_qcom_msm7x27" remote="github" revision="cxr-kk" />
-  <project path="device/samsung/cooperve" name="teamcarbonxtreme/android_device_samsung_cooperve" remote="github" revision="cxr-kk" />
-  <project path="device/samsung/bcm21553-common" name="teamcarbonxtreme/android_device_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
-  <project path="vendor/samsung" name="teamcarbonxtreme/android_vendor_samsung" remote="github" revision="cxr-kk" />
-  <project path="vendor/qcom/msm7x27" name="teamcarbonxtreme/android_vendor_qcom_msm7x27" remote="github" revision="cxr-kk" />
-  <project path="kernel/samsung/bcm21553-common" name="TeamCarbonXtreme/android_kernel_samsung_bcm21553-common" remote="github" revision="cxr-kk" />
-  <project path="kernel/samsung/msm7x27" name="teamcarbonxtreme/android_kernel_samsung_msm7x27" remote="github" revision="cxr-kk" />
-  <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Settings" name="TeamCarbonXtreme/android_packages_apps_Settings" remote="github" revision="cxr-kk" />
+  <project path="prebuilt" name="android_prebuilt" remote="cxr" />
+  <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="cxr" />
+  <project path="device/samsung/msm7x27-common" name="android_device_samsung_msm7x27-common" remote="cxr" />
+  <project path="device/qcom/msm7x27" name="android_device_qcom_msm7x27" remote="cxr" />
+  <project path="device/samsung/cooperve" name="android_device_samsung_cooperve" remote="cxr" />
+  <project path="device/samsung/bcm21553-common" name="android_device_samsung_bcm21553-common" remote="cxr" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="cxr" />
+  <project path="vendor/qcom/msm7x27" name="android_vendor_qcom_msm7x27" remote="cxr" />
+  <project path="kernel/samsung/bcm21553-common" name="android_kernel_samsung_bcm21553-common" remote="cxr" />
+  <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="cxr" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cxr" />
   <project path="frameworks/base" name="androidarmv6/android_frameworks_base" />
-  <project path="prebuilts/sdk" name="teamcarbonxtreme/android_prebuilts_sdk" remote="github" revision="cxr-kk" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" />
-  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" />
+  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="cxr" />
 </manifest>
