@@ -246,8 +246,7 @@
   <project path=".repo/local_manifest" name="BroadcomCM/local_manifest" remote="github" revision="cm-7.2.0" />
   <project path="bionic" name="BroadcomCM/android_bionic" remote="github" />
   <project path="build" name="BroadcomCM/android_build" remote="github" />
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <copyfile src="core/root.mk" dest="Makefile" />
   <project path="system/core" name="BroadcomCM/android_system_core" remote="github" />
   <project path="bootable/recovery" name="BroadcomCM/android_bootable_recovery" remote="github" revision="gb-release-7.2" />
   <project path="system/vold" name="BroadcomCM/android_system_vold" remote="github" />
