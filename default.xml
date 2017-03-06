@@ -5,8 +5,8 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote name="cxr"
-           fetch="https://github.com/TeamCarbonXtreme"
+  <remote name="cxr-re"
+           fetch="https://github.com/TeamCarbonXtremeARMV6-Remastered"
            review=".."
            revision="refs/heads/cxr-kk" />
 
@@ -498,27 +498,24 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" />
-  <!-- teamcarbonxtreme repositories -->
-  <project path="bootable/recovery" name="TeamCarbonXtreme/android_bootable_recovery" remote="github" revision="cxr-kk" />
-  <project path="carbonx" name="teamcarbonxtreme/carbonx" remote="github" revision="cxr-kk" />
-  <project path="system/bluetooth" name="android_system_bluetooth" remote="cxr" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="cxr" >
+  
+  
+  <!-- CarbonXtreme Remastered Project Repositories -->
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cxr-re" revision="cxr-kk" />
+  <project path="carbonx" name="carbonx" remote="cxr-re" revision="cxr-kk" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="cxr-re" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cxr-re" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/cxr" name="android_vendor_cxr" remote="cxr" >
+  <project path="vendor/cxr" name="android_vendor_cxr" remote="cxr-re" >
     <copyfile src="tools/build-cxr.sh" dest="build-cxr.sh" />
   </project>
-  <project path="prebuilt" name="android_prebuilt" remote="cxr" />
-  <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="cxr" />
-  <project path="device/samsung/msm7x27-common" name="android_device_samsung_msm7x27-common" remote="cxr" />
-  <project path="device/qcom/msm7x27" name="android_device_qcom_msm7x27" remote="cxr" />
-  <project path="device/samsung/cooperve" name="android_device_samsung_cooperve" remote="cxr" />
-  <project path="device/samsung/bcm21553-common" name="android_device_samsung_bcm21553-common" remote="cxr" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="cxr" />
-  <project path="vendor/qcom/msm7x27" name="android_vendor_qcom_msm7x27" remote="cxr" />
-  <project path="kernel/samsung/bcm21553-common" name="android_kernel_samsung_bcm21553-common" remote="cxr" />
-  <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="cxr" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cxr" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="cxr" />
-  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="cxr" />
+  <project path="prebuilt" name="android_prebuilt" remote="cxr-re" />
+  <project path="device/samsung/cooperve" name="android_device_samsung_cooperve" remote="cxr-re" />
+  <project path="device/samsung/bcm21553-common" name="android_device_samsung_bcm21553-common" remote="cxr-re" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="cxr-re" />
+  <project path="kernel/samsung/bcm21553-common" name="android_kernel_samsung_bcm21553-common" remote="cxr-re" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cxr-re" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cxr-re" />
+  <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="cxr-re" />
 </manifest>
